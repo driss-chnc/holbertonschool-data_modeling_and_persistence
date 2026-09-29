@@ -6,4 +6,4 @@ CREATE TABLE books (
     price REAL NOT NULL,
     stock INT NOT NULL,
     published_year INT
-)
+);
