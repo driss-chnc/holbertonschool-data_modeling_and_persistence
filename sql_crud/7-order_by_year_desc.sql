@@ -1,2 +1,3 @@
-SELECT title, price FROM books
+SELECT title, price 
+FROM books
 ORDER BY published_year DESC
