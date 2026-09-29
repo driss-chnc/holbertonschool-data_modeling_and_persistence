@@ -1,5 +1,3 @@
-SELECT MSELECT *
+SELECT MIN(price)
 FROM books
-WHERE stock > 0
-ORDER BY price ASC
-LIMIT 1;
+WHERE stock > 0;
