@@ -4,4 +4,4 @@ INNER JOIN enrollements
 ON students.id = enrollements.student_id
 INNER JOIN courses
 ON enrollements.course_id = courses.id
-ORDER BY students.name ASC;
+ORDER BY students.name ASC, course_title ASC;
